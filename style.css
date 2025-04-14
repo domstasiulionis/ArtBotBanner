@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#banner {
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(239, 239, 239);
+  padding: 3px;
+  overflow: hidden;
+}
+
+#banner-carousel {
+  position: relative;
+  width: 100%;
+  height: 440px;
+  object-fit: cover;
+}
+
+.banner-carousel-logo {
+  position: absolute;
+  width: 200px;
+  left: 50%;
+  top: 43%;
+  transform: translate(-50%, 0);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.banner-carousel-img {
+  width: 100%;
+}
+
+#banner-controls {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-controls-title {
+  text-align: center;
+  padding: 0 5px;
+  font-size: 20px;
+  width: 180px;
+}
+
+.banner-controls-arrow {
+  width: 10px;
+  height: auto;
+  cursor: pointer;
+}
+
+.banner-controls-arrow:nth-child(1) {
+  transform: rotate(180deg);
+}
+
+#banner-footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 15px;
+}
