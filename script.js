@@ -1,5 +1,5 @@
 // Set durations and prepare images and text
-const duration = 1,
+const duration = 1.5,
   interval = 2500,
   texts = gsap.utils.toArray(".banner-controls-title"),
   images = gsap.utils.toArray(".banner-carousel-img");
