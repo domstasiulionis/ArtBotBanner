@@ -4,7 +4,7 @@ const duration = 1,
   texts = gsap.utils.toArray(".banner-controls-title"),
   images = gsap.utils.toArray(".banner-carousel-img");
 
-const crossfade = () => {
+const crossFade = () => {
   let index = 0;
   let autoCycle;
 
