@@ -71,5 +71,5 @@ const crossFade = () => {
 };
 
 window.onload = () => {
-  crossfade();
+  crossFade();
 };
